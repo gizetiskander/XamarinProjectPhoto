@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinProjectPhoto.Views;
 
 namespace XamarinProjectPhoto
 {
@@ -10,7 +11,7 @@ namespace XamarinProjectPhoto
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new AuthPage());
         }
 
         protected override void OnStart()

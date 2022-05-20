@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinProjectPhoto.Views.RegPage" Visual="Material">
+    <ContentPage.Content>
+        <StackLayout Padding="50,30" Spacing="40">
+            <Entry x:Name="entry_Log" BackgroundColor="Gray" Text="" Placeholder="Login" />
+            <Entry x:Name="entry_Email" BackgroundColor="Gray" Text="" Placeholder="Email"/>
+            <Entry x:Name="entry_Password" BackgroundColor="Gray" Text="" Placeholder="Password"/>
+            <Entry x:Name="entry_Confirm" BackgroundColor="Gray" Text="" Placeholder="Confirm Password"/>
+            <Button x:Name="btn_Reg" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
