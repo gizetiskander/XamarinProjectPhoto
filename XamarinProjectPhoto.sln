@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinProjectPhoto.Android", "XamarinProjectPhoto\XamarinProjectPhoto.Android\XamarinProjectPhoto.Android.csproj", "{1FC43D0A-11D6-4E9B-BE0B-2CE4BBDE7559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinProjectPhoto", "XamarinProjectPhoto\XamarinProjectPhoto\XamarinProjectPhoto.csproj", "{2161672C-9B8D-4F79-B0D8-2394D2036B06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FC43D0A-11D6-4E9B-BE0B-2CE4BBDE7559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC43D0A-11D6-4E9B-BE0B-2CE4BBDE7559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC43D0A-11D6-4E9B-BE0B-2CE4BBDE7559}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1FC43D0A-11D6-4E9B-BE0B-2CE4BBDE7559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC43D0A-11D6-4E9B-BE0B-2CE4BBDE7559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC43D0A-11D6-4E9B-BE0B-2CE4BBDE7559}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2161672C-9B8D-4F79-B0D8-2394D2036B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2161672C-9B8D-4F79-B0D8-2394D2036B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2161672C-9B8D-4F79-B0D8-2394D2036B06}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2161672C-9B8D-4F79-B0D8-2394D2036B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2161672C-9B8D-4F79-B0D8-2394D2036B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2161672C-9B8D-4F79-B0D8-2394D2036B06}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {631B45A1-45A5-44EA-9692-BEE7AC1033F8}
+	EndGlobalSection
+EndGlobal
