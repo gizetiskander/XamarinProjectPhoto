@@ -16,5 +16,10 @@ namespace XamarinProjectPhoto.Views
         {
             InitializeComponent();
         }
+
+        private void btn_Reg_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

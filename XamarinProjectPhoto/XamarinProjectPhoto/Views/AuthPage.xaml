@@ -1,12 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinProjectPhoto.Views.AuthPage">
+             x:Class="XamarinProjectPhoto.Views.AuthPage" Visual="Material">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="30,20" Spacing="50" VerticalOptions="Start">
+            <Image x:Name="icon_Aplus" Margin="0,0,0,20" Aspect="AspectFit" Scale="0.9" Source="image.png"/>
+            <StackLayout Spacing="30">
+                <Entry x:Name="entry_Login" BackgroundColor="Gray" Placeholder="Login" Text="" VerticalOptions="CenterAndExpand"/>
+                <Entry x:Name="entry_Password" BackgroundColor="Gray" IsPassword="True" Placeholder="Password" Text="" VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="End">
+                <Button x:Name="btn_Reg" BackgroundColor="SkyBlue" Clicked="btn_Reg_Clicked" CornerRadius="30" 
+                        HeightRequest="50"   HorizontalOptions="EndAndExpand" Text="Registration"/>
+                <Button x:Name="btn_Log" BackgroundColor="SkyBlue" Clicked="btn_Log_Clicked" CornerRadius="30" 
+                        HeightRequest="50" HorizontalOptions="EndAndExpand" Text="Login"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
