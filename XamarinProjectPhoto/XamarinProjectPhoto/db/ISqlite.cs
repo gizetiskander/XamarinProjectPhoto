@@ -4,7 +4,7 @@ using System.Text;
 
 namespace XamarinProjectPhoto.db
 {
-    interface ISqlite
+    public interface ISqlite
     {
         string GetDatabasePath(string filename);
     }
