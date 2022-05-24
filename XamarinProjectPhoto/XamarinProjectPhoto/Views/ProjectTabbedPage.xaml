@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinProjectPhoto.Views.ProjectTabbedPage">
+    <ContentPage Title="О проекте">
+        <ScrollView Padding="0,0">
+            <StackLayout>
+                <Label Padding="20" FontAttributes="Bold" FontSize="18" HorizontalOptions="CenterAndExpand" Text="Описание:" 
+                       TextColor="Black" TextTransform="Uppercase" VerticalOptions="Start" />
+                <Label x:Name="ProjectDescriptionLbl" FontAttributes="Bold" FontSize="Small" HorizontalTextAlignment="Center"
+                    Text="{Binding Description}" TextColor="Black" TextTransform="Uppercase" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="Картинки">
+        <StackLayout Padding="20">
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="image_First" HeightRequest="150" Source="{Binding ImgPath}" WidthRequest="180" />
+                <Image
+                    x:Name="image_Second" HeightRequest="150" Source="House.png" WidthRequest="180" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="image_Third" HeightRequest="150" Source="House.png" WidthRequest="180" />
+                <Image x:Name="image_Fourth" HeightRequest="150" Source="House.png" WidthRequest="180" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="image_Fifth" HeightRequest="150" Source="House.png" WidthRequest="180" />
+                <Image x:Name="image_Sixth" HeightRequest="150" Source="House.png" WidthRequest="180" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Контакты">
+        <StackLayout Margin="50" Spacing="30">
+            <Frame BackgroundColor="LightGray">
+                <Label x:Name="TelephoneNumberLbl1" Text="{Binding TelephoneNumber}"/>
+            </Frame>
+            <Frame BackgroundColor="LightGray">
+                <Label x:Name="EmailLbl" Text="{Binding Email}"/>
+            </Frame>
+            <Frame BackgroundColor="LightGray">
+                <Label x:Name="AddressLbl" Text="{Binding Addres}"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
