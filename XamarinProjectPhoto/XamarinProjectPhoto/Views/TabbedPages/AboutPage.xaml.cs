@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace XamarinProjectPhoto.Views.TabbedPages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ContactsTabbedPage : TabbedPage
+    public partial class AboutPage : ContentPage
     {
-        public ContactsTabbedPage()
+        public AboutPage()
         {
             InitializeComponent();
         }
