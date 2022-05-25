@@ -22,10 +22,10 @@
 
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
-                    <Button x:Name="CancelBtn" BackgroundColor="DeepSkyBlue"
+                    <Button x:Name="CancelBtn" BackgroundColor="DeepSkyBlue" Clicked="CancelBtn_Clicked"
                         CornerRadius="20" HeightRequest="50" HorizontalOptions="Start"
                         Text="Отмена" WidthRequest="150" />
-                    <Button x:Name="AddBtn" BackgroundColor="DeepSkyBlue"  CornerRadius="20" HeightRequest="50"
+                    <Button x:Name="AddBtn" BackgroundColor="DeepSkyBlue" Clicked="AddBtn_Clicked"  CornerRadius="20" HeightRequest="50"
                         HorizontalOptions="EndAndExpand" Text="Добавить" WidthRequest="150" />
                 </StackLayout>
             </StackLayout>
