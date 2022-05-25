@@ -16,5 +16,15 @@ namespace XamarinProjectPhoto.Views
         {
             InitializeComponent();
         }
+
+        private void AddImageGalBtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddImageCamBtn_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

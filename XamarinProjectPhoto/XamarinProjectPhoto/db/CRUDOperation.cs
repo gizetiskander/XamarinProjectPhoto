@@ -6,7 +6,7 @@ using XamarinProjectPhoto.Models;
 
 namespace XamarinProjectPhoto.db
 {
-    class CRUDOperation
+    public class CRUDOperation
     {
         readonly SQLiteConnection db;
         public CRUDOperation(string databasePath)
